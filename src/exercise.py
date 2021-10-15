@@ -1,7 +1,7 @@
 def main():
     #write your code below this line
     try:
-        f = open("src\data.txt", "r")
+        f = open("data.txt", "r")
         print(f.read())
     except:
         print("Error")
